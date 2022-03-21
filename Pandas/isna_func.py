@@ -12,3 +12,14 @@ df['column_e'] = new
 df.isna()  # show if it is missing or not
 
 print(df.isna())
+print()
+
+df.isna().any()     # returns a boolean value for each column
+
+print(df.isna().any())
+print()
+
+df.isna().sum()     # returns a number of missing values in each column
+
+print(df.isna().sum())
+print()
